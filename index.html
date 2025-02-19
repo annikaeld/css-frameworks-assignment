@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="test.js"></script>
-    <title>Document</title>
+    <title>Sign In</title>
 </head>
 
 <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
@@ -20,9 +21,12 @@
                 <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">
                     &#9776;
                 </button>
-                <nav class="class hidden sm:block space-x-8 text-xl" aria-label="main">
+                <nav class="sm:relative absolute top-full left-0 px-2 w-full bg-pink-700 flex-col sm:flex sm:flex-row space-x-8 text-xl hidden"
+                    aria-label="main">
                     <a href=" /feed" class="hover:opacity-90">Feed</a>
                     <a href="/profile" class="hover:opacity-90">Profile</a>
+                    <a href="/index.html" class="hover:opacity-90"><i class="fa fa-power-off"
+                            aria-hidden="true"></i></a>
                 </nav>
             </div>
         </section>
