@@ -4,19 +4,21 @@ description:
 
 ## Setup
 
-'''bash
+```bash
 npm install
-'''
+```
 
 For development:
-'''bash
+
+```bash
 npm run dev
-'''
+```
 
 For production
-'''bash
+
+```bash
 npm run build
-'''
+```
 
 ## Tech stack
 
